@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: rgb(186, 87, 206);
+
+            transition: width 2s, border-radius 1s;
+        }
+
+        .box:hover{
+            width: 350px;
+            border-radius: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
